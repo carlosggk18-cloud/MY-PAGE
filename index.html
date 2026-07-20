@@ -1,11 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Servidor No Encontrado</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo Transferencia SPEI</title>
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#eceff1;
+    margin:0;
+    padding:40px;
+}
+
+.ticket{
+    width:420px;
+    margin:auto;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+    overflow:hidden;
+}
+
+.header{
+    background:#8a1538;
+    color:white;
+    text-align:center;
+    padding:18px;
+}
+
+.demo{
+    background:#ffeb3b;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    padding:8px;
+}
+
+.success{
+    color:#1b8f3c;
+    font-size:24px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.amount{
+    font-size:34px;
+    font-weight:bold;
+    text-align:center;
+    margin:15px 0;
+}
+
+.table{
+    padding:20px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd;
+    padding:10px 0;
+}
+
+.footer{
+    text-align:center;
+    color:#777;
+    font-size:12px;
+    padding:20px;
+}
+</style>
+
 </head>
 <body>
-  <h1>¡Hola!</h1>
-  <p>Servidor No Encontrado</p>
+
+<div class="ticket">
+
+<div class="header">
+<h2>Hey Banco</h2>
+</div>
+
+<div class="demo">
+
+</div>
+
+<div class="success">
+✔ Transferencia Exitosa
+</div>
+
+<div class="amount">
+$3,200.00 MXN
+</div>
+
+<div class="table">
+
+<div class="row">
+<strong>Fecha</strong>
+<span>20/07/2026</span>
+</div>
+
+<div class="row">
+<strong>Hora</strong>
+<span>13:20:28</span>
+</div>
+
+<div class="row">
+<strong>Tipo</strong>
+<span>SPEI</span>
+</div>
+
+<div class="row">
+<strong>Banco destino</strong>
+<span>Banco Azteca</span>
+</div>
+
+<div class="row">
+<strong>Beneficiario</strong>
+<span>Jessica Mondragon Martinez</span>
+</div>
+
+<div class="row">
+<strong>Concepto</strong>
+<span>Pago</span>
+</div>
+
+<div class="row">
+<strong>Referencia</strong>
+<span>872635901</span>
+</div>
+
+<div class="row">
+<strong>Estado</strong>
+<span style="color:green;">Completada</span>
+</div>
+
+</div>
+
+<div class="footer">
+Comprobante de transferecncia interbancaria Validado<br>
+</div>
+
+</div>
+
 </body>
 </html>
